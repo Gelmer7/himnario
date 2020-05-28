@@ -2,30 +2,38 @@
         [formGroup]="forma" (ngSubmit)="buscarHimnos()">
             <input  type="text" 
                     class="form-control col-8 " 
-                    placeholder="Himno"
+                    placeholder="Buscar Himno"
                     formControlName="termino"
                     autofocus >
             <button class="btn btn-outline-primary" 
-                    type="submit"> 
+                    type="submit" 
+                    style="color: #47185a;"> 
                     <i class="fas fa-search"></i> Buscar </button>
 </form>
 
 <!-- RESULTADO DE LOS HIMNOS -->
-<div class="card-columns" >
-    <div class="card" *ngFor="let himno of himnos">
-    <div class="text-center mt-4">
-        <a [href]="himno.url" target="_blank"><i class="fab fa-youtube fa-3x" style="color: #c4302b;" ></i></a>
-    </div>
-    <div class="card-body">
-        <div class="text-center">
-            <h5 class="card-title">{{himno.numero}}</h5>
-            <h5 class="card-title">{{himno.title}}</h5>
+<div class="row row-cols-1 row-cols-md-3">
+    <div class="col mb-4" *ngFor="let himno of himnos">
+      <div class="card h-100">
+        <div class="text-center mt-4">
+            <a [href]="himno.url" target="_blank"><i class="fab fa-youtube fa-3x" style="color: #c4302b;" ></i></a>
         </div>
         <div>
-            <p class="card-text">{{himno.content}}</p>
+        <div class="card-body">
+            <div class="text-center">
+                <h5 class="card-title">{{himno.numero}}</h5>
+                <h5 class="card-title">{{himno.title}}</h5>
+            </div>
+            <div>
+                <p class="card-text" style="white-space: pre-line">{{himno.content}}</p>
+            </div>
+            <footer class="blockquote-footer blockquote mb-0">
+                <small class="text-muted">
+                  Autor: <cite title="Source Title">{{himno.autores}}</cite>
+                </small>
+              </footer>
         </div>
+      </div>
     </div>
-    </div>
-</div>
 
 

@@ -12,7 +12,7 @@ export class HimnosService {
 
   getHimnos( termino:string){
     let himnos:any=[]
-    return this.http.get('assets/himnos.json')
+    return this.http.get('assets/json/himnos.json')
     .pipe(map( (data:any) =>{
       data.forEach(el => {
         let himno:any
