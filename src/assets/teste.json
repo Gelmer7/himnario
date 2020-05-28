@@ -1,0 +1,623 @@
+[
+    {
+        "_number": 1,
+        "listedIn": [
+            {
+                "locale": "es",
+                "name": "hymnalEs2009",
+                "number": 1,
+                "title": "Cantad Alegres al señor"
+            },
+            {
+                "locale": "es",
+                "name": "hymnalEs1962",
+                "number": 1,
+                "title": "Cantad Alegres al señor"
+            },
+            {
+                "locale": "gn",
+                "name": "hymnalGn1991",
+                "number": 41,
+                "title": "Torýpe japurahéi"
+            }
+        ],
+        "lyrics": [
+            {
+                "author": null,
+                "content": "\n1. Cantad alegres al Señor,\nMortales todos por doquier;\nServidle siempre con fervor,\nObedecedle con placer.\n\n2. Con gratitud canción alzad\nAl Hacedor que el ser os dio;\nAl Dios excelso venerad,\nQue como Padre nos amó.\n\n3. Su pueblo somos: salvará\nA los que busquen al Señor;\nNinguno de ellos dejará;\nÉl los ampara con su amor. ",
+                "locale": "es",
+                "title": "Cantad alegres al Señor"
+            },
+            {
+                "author": "Lidio Vargas Riquelme",
+                "content": "\n1. Torypaitépe japurahéipa\nAngaipavóra enterove\nHa mborayhúpe ñambyengovia angata\nJajapopa hembipota.\n\n2. Yapurahéi, aguyje ñame´e\nJesu yvypóra apohare\nHa Ñandejárape tuicha ñamomba´e\nÑanderayhúgui jaikove.\n\n3. Jesu oúta oheka itavaygua\nUpe iñe´eme jatopa.\nNi peteĩ ndohejarei mo´ai,\nPe ipoguýpe jaikopa. ",
+                "locale": "gn",
+                "title": "Torýpe japurahéi"
+            },
+            {
+                "author": "Tomás J. González Carvajal",
+                "locale": "en"
+            }
+        ],
+        "musicAuthor": [
+            "John Hatton"
+        ],
+        "titles": [
+            {
+                "locale": "es",
+                "title": "Cantad Alegres al señor"
+            },
+            {
+                "isOriginalTitle": true,
+                "locale": "en",
+                "title": "Before Jehovah’s Awful Throne"
+            },
+            {
+                "locale": "pt-br",
+                "title": "Ó Deus de Amor"
+            },
+            {
+                "date": "1783",
+                "locale": "en",
+                "title": "Duke Street",
+                "tuneTitle": true
+            },
+            {
+                "locale": "en",
+                "title": "John Hatton's Arrangement"
+            },
+            {
+                "locale": "gn",
+                "title": "Torýpe japurahéi"
+            }
+        ],
+        "urls": [
+            {
+                "inList": "hymnalEs2009",
+                "locale": "es",
+                "type": "info",
+                "url": "https://himnarioadventista.org/himno-01-cantad-alegres-al-senor/"
+            },
+            {
+                "inList": "hymnalEs2009",
+                "locale": "es",
+                "type": "youtube",
+                "url": "https://www.youtube.com/embed/UHBQfid_NG0?rel=0;autoplay=1"
+            },
+            {
+                "inList": "hymnalGn2009",
+                "locale": "gn",
+                "type": "info",
+                "url": "http://ministeriovarsa.com/himnos-en-guarani/cantad-alegres-al-senor"
+            }
+        ]
+    },
+    {
+        "_number": 2,
+        "listedIn": [
+            {
+                "locale": "es",
+                "name": "hymnalEs2009",
+                "number": 2,
+                "title": "Dá gloria al Señor"
+            },
+            {
+                "locale": "es",
+                "name": "hymnalEs1962",
+                "number": 2,
+                "title": "Dá gloria al Señor"
+            }
+        ],
+        "lyrics": [
+            {
+                "author": "John S.B. Monsell –",
+                "locale": "en-us"
+            },
+            {
+                "author": "Edgar L. Maxwell",
+                "content": "02 – Da gloria al señor\n\n1\nDa gloria al Señor, de rodillas adórale\nen la hermosura de su santidad,\ntu plena obediencia cual oro ofreciéndole\ncon el incienso de grata humildad.\n2\n La carga del mal deposita hoy a sus pies,\n la llevará sobre su corazón;\n tus penas te quitará,\n limpiando tus lágrimas,\n guiando tus pies a mayor bendición.\n3\n En sus santos atrios adonde convídate,\n aunque eres pobre no temas entrar;\n la firme, constante fe y el puro, sencillo amor:\n tales ofrendas pon sobre el altar\n4\n Y cuando tus dones le entregues a tu Señor,\n por su Hijo amado los aceptará;\n y tras noche lúgubre habrá aurora espléndida:\n gozo, alegría y paz te dará.",
+                "locale": "es",
+                "title": "Dá gloria al Señor"
+            }
+        ],
+        "musicAuthor": [
+            "Edwin Barnes"
+        ],
+        "titles": [
+            {
+                "locale": "es",
+                "title": "Dá gloria al Señor"
+            },
+            {
+                "isOriginalTitle": true,
+                "locale": "en",
+                "title": "O Worship the Lord"
+            },
+            {
+                "date": "1886",
+                "locale": "en",
+                "title": "Southhampton",
+                "tuneTitle": true
+            },
+            {
+                "locale": "en",
+                "title": "O Worship the Lord in the Beauty of Holiness"
+            }
+        ],
+        "urls": [
+            {
+                "inList": "hymnalEs2009",
+                "locale": "es",
+                "type": "info",
+                "url": "https://himnarioadventista.org/himno-02-da-gloria-al-senor/"
+            },
+            {
+                "inList": "hymnalEs2009",
+                "locale": "es",
+                "type": "youtube",
+                "url": "https://www.youtube.com/embed/Dj1UnjnBbrM?rel=0;autoplay=1"
+            }
+        ]
+    },
+    {
+        "_number": 3,
+        "listedIn": [
+            {
+                "locale": "es",
+                "name": "hymnalEs2009",
+                "number": 3,
+                "title": "Unidos en Espíritu"
+            },
+            {
+                "locale": "es",
+                "name": "hymnalEs1962",
+                "number": 11,
+                "title": "Unidos en Espíritu"
+            }
+        ],
+        "lyrics": [
+            {
+                "author": "Juan B. Cabrera",
+                "content": "03 – Unidos en espíritu\n\n\n1\nUnidos en espíritu al coro celestial,\ncantemos con los ángeles un cántico triunfal.\nY si vertimos lágrimas al frente de la cruz,\nrebose hoy el júbilo, pues vive el buen Jesús.\n2\n Lo que en el triste Gólgota derrota pareció,\n desde el sellado túmulo en triunfo se cambió.\n Vencido el enemigo está, menguado su poder;\n y el mortal su súbdito ya no habrá de ser.\n3\n Jesús, de gloria Príncipe, autor de nuestra paz,\n ven, muéstranos benévolo tu esplendorosa faz.\n Y acepta el dulce cántico de nuestra gratitud,\n por tu valiosa dádiva de la eternal salud.",
+                "locale": "es",
+                "title": "Unidos en Espíritu"
+            }
+        ],
+        "musicAuthor": [
+            "Louis Spohr"
+        ],
+        "titles": [
+            {
+                "locale": "es",
+                "title": "Unidos en Espíritu"
+            },
+            {
+                "isOriginalTitle": true,
+                "locale": "en",
+                "title": "I Heard the Voice of Jesus Say"
+            },
+            {
+                "locale": "en",
+                "title": "Jerusalem",
+                "tuneTitle": true
+            }
+        ],
+        "urls": [
+            {
+                "inList": "hymnalEs2009",
+                "locale": "es",
+                "type": "info",
+                "url": "https://himnarioadventista.org/himno-03-unidos-en-espiritu/"
+            },
+            {
+                "inList": "hymnalEs2009",
+                "locale": "es",
+                "type": "youtube",
+                "url": "https://www.youtube.com/embed/gnNLpCu0xGo?rel=0;autoplay=1"
+            }
+        ]
+    },
+    {
+        "_number": 4,
+        "listedIn": [
+            {
+                "locale": "es",
+                "name": "hymnalEs2009",
+                "number": 4,
+                "title": "Alabanzas sin cesar"
+            },
+            {
+                "locale": "es",
+                "name": "hymnalEs1962",
+                "number": 22,
+                "title": "Alabanzas sin cesar"
+            }
+        ],
+        "lyrics": [
+            {
+                "author": "G. A. Sherwell",
+                "content": "04 – Alabanzas sin cesar\n\n 1\nAlabanzas sin cesar entonemos al Señor;\nhimnos mil a su bondad entonemos con amor.\nÉl nos da la plenitud de su gracia celestial;\nes la fuente de salud para el infeliz mortal.\n2\n Del pecado abrumador él nos vino a libertar;\n nos ofrece salvación, y nos llama sin cesar.\n Ya podemos recorrer el camino terrenal\n sin temor hasta obtener nuestra herencia celestial.\n3\n Y entretanto que el Señor nos reciba donde está,\n entonemos el loor que bondadoso aceptará.\n Mientras huelle nuestro pie este mundo pecador,\n ofrezcámosle con fe nuestro canto, nuestro amor.",
+                "locale": "es",
+                "title": "Alabanzas sin cesar"
+            }
+        ],
+        "musicAuthor": [
+            "John B. Dykes"
+        ],
+        "titles": [
+            {
+                "locale": "es",
+                "title": "Alabanzas sin cesar"
+            },
+            {
+                "isOriginalTitle": true,
+                "locale": "en",
+                "title": "Jesus, Lover of My Soul"
+            },
+            {
+                "date": "1861",
+                "locale": "en",
+                "title": "Hollingside",
+                "tuneTitle": true
+            }
+        ],
+        "urls": [
+            {
+                "inList": "hymnalEs2009",
+                "locale": "es",
+                "type": "info",
+                "url": "https://himnarioadventista.org/himno-04-alabanzas-sin-cesar-himnario-adventista/"
+            },
+            {
+                "inList": "hymnalEs2009",
+                "locale": "es",
+                "type": "youtube",
+                "url": "https://www.youtube.com/embed/Cq7R6Bl4nXc?rel=0;autoplay=1"
+            }
+        ]
+    },
+    {
+        "_number": 5,
+        "listedIn": [
+            {
+                "locale": "es",
+                "name": "hymnalEs2009",
+                "number": 5,
+                "title": "A ti, glorioso Dios"
+            },
+            {
+                "locale": "es",
+                "name": "hymnalEs1962",
+                "number": 74,
+                "title": "A ti, glorioso Dios"
+            }
+        ],
+        "lyrics": [
+            {
+                "author": "Martin Rinkart",
+                "date": "1636",
+                "locale": "en-us"
+            },
+            {
+                "author": "Walton J. Brown",
+                "content": "05 – A ti, glorioso Dios\n\n1\nA ti, glorioso Dios, cantamos alabanzas;\nrendímoste honor por todas tus grandezas.\nNos das tu bendición en nuestra senda aquí;\nnos guiarás, Señor, a tu mansión allí.\n2\n Ven siempre, oh gran Dios, muy cerca de nosotros;\n con celo y con fervor queremos ir a otros.\n Tu brazo protector del mal nos guardará;\n en lucha y aflicción consuelo nos será.\n3\n Oh Padre, eterno Dios, cantámoste loores,\n y al Hijo Redentor, Señor de los señores,\n y al Santo Espíritu, el gran Consolador:\n al grande, trino Dios cantamos con fervor.",
+                "date": "1961",
+                "locale": "es",
+                "title": "A ti, glorioso Dios"
+            }
+        ],
+        "musicAuthor": [
+            "Johann Crüger"
+        ],
+        "titles": [
+            {
+                "locale": "es",
+                "title": "A ti, glorioso Dios"
+            },
+            {
+                "isOriginalTitle": true,
+                "locale": "de",
+                "title": "Nun danket alle Gott"
+            },
+            {
+                "date": "1647",
+                "locale": "de",
+                "title": "Nun Danket",
+                "tuneTitle": true
+            }
+        ],
+        "urls": [
+            {
+                "inList": "hymnalEs2009",
+                "locale": "es",
+                "type": "info",
+                "url": "https://himnarioadventista.org/himno-05-a-ti-glorioso-dios-himnario-adventista/"
+            },
+            {
+                "inList": "hymnalEs2009",
+                "locale": "es",
+                "type": "youtube",
+                "url": "https://www.youtube.com/embed/Zhmj_vJmH1Q?rel=0;autoplay=1"
+            }
+        ]
+    },
+    {
+        "_number": 6,
+        "listedIn": [
+            {
+                "locale": "es",
+                "name": "hymnalEs2009",
+                "number": 6,
+                "title": "Hosanna"
+            },
+            {
+                "locale": "es",
+                "name": "hymnalEs1962",
+                "number": 60,
+                "title": "Hosanna"
+            }
+        ],
+        "lyrics": [
+            {
+                "author": "Anónimo",
+                "locale": "en-us"
+            },
+            {
+                "author": "Anónimo",
+                "content": "06 – ¡Hosanna!\n\n¡Hosanna! ¡Hosanna! ¡Hosanna!\nEn cielo y tierra, es del Señor\nla gloria y potestad,\ny nos circunda con su amor\npor la eternidad.\nAlzad, pues, himnos de loor,\nque es grato a nuestro Dios;\na él rindamos todo honor\nahora y siempre, amén.\n¡A Dios rindamos todo honor,\ntodo honor, todo honor!\n¡A Dios rindamos todo honor,\nahora y siempre! Amén.",
+                "locale": "es",
+                "title": "Hosanna"
+            }
+        ],
+        "musicAuthor": [
+            "William B. Bradbury"
+        ],
+        "titles": [
+            {
+                "locale": "es",
+                "title": "Hosanna"
+            },
+            {
+                "locale": "en",
+                "title": "Hosanna"
+            }
+        ],
+        "urls": [
+            {
+                "inList": "hymnalEs2009",
+                "locale": "es",
+                "type": "info",
+                "url": "https://himnarioadventista.org/himno-06-hosanna-himnario-adventista/"
+            },
+            {
+                "inList": "hymnalEs2009",
+                "locale": "es",
+                "type": "youtube",
+                "url": "https://www.youtube.com/embed/qvncn7EThME?rel=0;autoplay=1"
+            }
+        ]
+    },
+    {
+        "_number": 7,
+        "listedIn": [
+            {
+                "locale": "es",
+                "name": "hymnalEs2009",
+                "number": 7,
+                "title": "Oh Dios mi soberano rey"
+            },
+            {
+                "locale": "es",
+                "name": "hymnalEs1962",
+                "number": 13,
+                "title": "Oh Dios mi soberano rey"
+            }
+        ],
+        "lyrics": [
+            {
+                "author": "Anónimo",
+                "content": "07 – Oh Dios, mi soberano Rey\n\n1\nOh Dios, mi soberano Rey;\na ti daré loor;\ntu nombre yo exaltaré,\nsantísimo Señor.\n2\n Tus obras evidencia son\n de tu infinito amor,\n y cantan con alegre voz\n las glorias del Señor.\n3\n Aquel que busca salvación,\n en Cristo la hallará;\n y su ferviente petición\n él pronto atenderá.\n4\n Eternamente durará\n el reino del Señor.\n Allí sus siervos gozarán\n la plenitud de amor.",
+                "locale": "es",
+                "title": "Oh Dios mi soberano rey"
+            }
+        ],
+        "musicAuthor": [
+            "Thomas A. Arne"
+        ],
+        "titles": [
+            {
+                "locale": "es",
+                "title": "Oh Dios mi soberano rey"
+            },
+            {
+                "isOriginalTitle": true,
+                "locale": "en",
+                "title": "Am I a Soldier of the Cross?"
+            },
+            {
+                "date": "1762",
+                "locale": "en",
+                "title": "Arlington",
+                "tuneTitle": true
+            }
+        ],
+        "urls": [
+            {
+                "inList": "hymnalEs2009",
+                "locale": "es",
+                "type": "info",
+                "url": "https://himnarioadventista.org/himno-07-oh-dios-mi-soberano-rey-himnario-adventista/"
+            },
+            {
+                "inList": "hymnalEs2009",
+                "locale": "es",
+                "type": "youtube",
+                "url": "https://www.youtube.com/embed/HFIpfBkNgLo?rel=0;autoplay=1"
+            }
+        ]
+    },
+    {
+        "_number": 8,
+        "listedIn": [
+            {
+                "locale": "es",
+                "name": "hymnalEs2009",
+                "number": 8,
+                "title": "Suenen duces himnos"
+            },
+            {
+                "locale": "es",
+                "name": "hymnalEs1962",
+                "number": 18,
+                "title": "Suenen duces himnos"
+            }
+        ],
+        "lyrics": [
+            {
+                "author": "Juan B. Cabrera",
+                "content": "08 – ¡Suenen dulces himnos!\n\n1\n¡Suenen dulces himnos gratos al Señor\ny óiganse en concierto universal!\nDesde el alto cielo baja el Salvador\npara beneficio del mortal.\nCoro\n¡Gloria!, ¡gloria sea a nuestro Dios!\n  ¡Gloria!, sí, cantemos a una voz.\n  Y el cantar de gloria que se oyó en Belén,\n  sea nuestro cántico también.\n2\n Montes y collados fluyan leche y miel,\n y abundancia esparzan y solaz.\n Gócense los pueblos, gócese Israel,\n que a la tierra viene ya la paz.\n3\n Salte, de alegría lleno el corazón,\n la abatida y pobre humanidad;\n Dios se compadece viendo su aflicción\n y le muestra buena voluntad.\n4\n Vibre en nuestros pechos noble gratitud\n hacia quien nos brinda redención;\n y a Jesús el Cristo, que nos da salud,\n tributemos nuestra adoración.",
+                "locale": "es",
+                "title": "Suenen duces himnos"
+            }
+        ],
+        "musicAuthor": [
+            "George F. Root"
+        ],
+        "titles": [
+            {
+                "locale": "es",
+                "title": "Suenen duces himnos"
+            },
+            {
+                "isOriginalTitle": true,
+                "locale": "en",
+                "title": "Ring the Bells of Heaven"
+            },
+            {
+                "locale": "en",
+                "title": "Ring the Bells of Heaven"
+            }
+        ],
+        "urls": [
+            {
+                "inList": "hymnalEs2009",
+                "locale": "es",
+                "type": "info",
+                "url": "https://himnarioadventista.org/himno-08-suenen-dulces-himnos-himnario-adventista/"
+            },
+            {
+                "inList": "hymnalEs2009",
+                "locale": "es",
+                "type": "youtube",
+                "url": "https://www.youtube.com/embed/zSzlg-CrzDg?rel=0;autoplay=1"
+            }
+        ]
+    },
+    {
+        "_number": 9,
+        "listedIn": [
+            {
+                "locale": "es",
+                "name": "hymnalEs2009",
+                "number": 9,
+                "title": "Alabemos al Señor"
+            }
+        ],
+        "lyrics": [
+            {
+                "author": "Ursula Schlenker:",
+                "locale": "de"
+            },
+            {
+                "author": "Anónimo",
+                "content": "09 – Alabemos al Señor\n\n1\nAlabemos al Señor;\ndemos gloria al Señor.\nAleluya, amén, aleluya, amén.\n2\n Prediquemos de su amor;\n anunciemos su perdón.\n Aleluya, amén,\n aleluya, amén.",
+                "locale": "es",
+                "title": "Alabemos al Señor"
+            }
+        ],
+        "musicAuthor": [
+            "Alfred Stier (1949)",
+            "Melvin West (1984) (arr)"
+        ],
+        "titles": [
+            {
+                "locale": "es",
+                "title": "Alabemos al Señor"
+            },
+            {
+                "date": "1949",
+                "locale": "en",
+                "title": "Rühmt des herren Namen"
+            }
+        ],
+        "urls": [
+            {
+                "inList": "hymnalEs2009",
+                "locale": "es",
+                "type": "info",
+                "url": "https://himnarioadventista.org/himno-09-alabemos-al-senor-himnario-adventista/"
+            },
+            {
+                "inList": "hymnalEs2009",
+                "locale": "es",
+                "type": "youtube",
+                "url": "https://www.youtube.com/embed/gCeUvrch8NI?rel=0;autoplay=1"
+            }
+        ]
+    },
+    {
+        "_number": 10,
+        "listedIn": [
+            {
+                "locale": "es",
+                "name": "hymnalEs2009",
+                "number": 10,
+                "title": "Alaba al Dios de abrahan"
+            }
+        ],
+        "lyrics": [
+            {
+                "author": "Thomas Olivers",
+                "locale": "en-us"
+            },
+            {
+                "author": "Haroldo Castellanos A.",
+                "content": "10 – Alaba al Dios de Abraham\n\n1\nAlaba al Dios de Abraham, quien reina con honor;\nquien es anciano eterno y gran Dios de amor.\nYo soy el gran Jehová proclama a gran voz.\nMe inclino y bendigo el nombre del santo Dios.\n2\nAlaba al Dios de Abraham, quien reina en majestad.\nMe elevo y busco el gozo que a su diestra va.\nLa fama y el poder todo esto lo dejé.\nÉl es mi parte, torre y escudo que yo busqué.\n3\nTriunfante multitud las gracias todos dan.\nAl Padre, Hijo, Espíritu, cantando están.\nAlaba al Dios de Abraham, Señor del gran confín.\nPues suyo es el poder, majestad y loor sin fin.",
+                "locale": "es",
+                "title": "Alaba al Dios de abrahan"
+            }
+        ],
+        "musicAuthor": [
+            "Mayer Lyon (1770) (arr)"
+        ],
+        "notes": "Melodía Tradicional Judía",
+        "titles": [
+            {
+                "locale": "es",
+                "title": "Alaba al Dios de abrahan"
+            },
+            {
+                "locale": "en",
+                "title": "The God of Abraham Praise"
+            },
+            {
+                "locale": "en",
+                "title": "Leoni"
+            }
+        ],
+        "urls": [
+            {
+                "inList": "hymnalEs2009",
+                "locale": "es",
+                "type": "info",
+                "url": "https://himnarioadventista.org/himno-10-alaba-al-dios-de-abraham-himnario-adventista/"
+            },
+            {
+                "inList": "hymnalEs2009",
+                "locale": "es",
+                "type": "youtube",
+                "url": "https://www.youtube.com/embed/eb2GxwgQATs?rel=0;autoplay=1"
+            }
+        ]
+    }
+]
