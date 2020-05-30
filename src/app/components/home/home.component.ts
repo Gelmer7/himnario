@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { HimnosService } from 'src/app/services/himnos.service';
+import { HimnosService, Himno } from 'src/app/services/himnos.service';
 import { FormBuilder, FormGroup, FormControl } from '@angular/forms';
+import { isUndefined } from 'util';
 
 @Component({
   selector: 'app-home',
@@ -12,7 +13,9 @@ export class HomeComponent implements OnInit {
   
   //variaveis
   forma:FormGroup
-  himnos:any =[]
+  terminoBusca:string
+  resulPronto= false
+  himnos:Himno [] = []
 
   constructor(  private himnosService:HimnosService,
                 private fb:FormBuilder) {
@@ -32,10 +35,15 @@ export class HomeComponent implements OnInit {
   }
 
   buscarHimnos(){
-    let termino = this.termino.value
-    this.himnosService.getHimnos(termino).subscribe(val=>{
+    if (!this.termino.value ) {
+      return
+    }
+    this.terminoBusca = this.termino.value
+    
+    this.himnosService.getHimnos(this.terminoBusca).subscribe(val=>{
       this.himnos = val
       console.log("home: ",this.himnos)
+      this.resulPronto = true
     })
   }
 

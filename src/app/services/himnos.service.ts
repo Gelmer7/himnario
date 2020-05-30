@@ -11,19 +11,26 @@ export class HimnosService {
   }
 
   getHimnos( termino:string){
-    let himnos:any=[]
+    let himnos:Himno[]=[]
     return this.http.get('assets/json/himnos.json')
     .pipe(map( (data:any) =>{
-      data.forEach(el => {
-        let himno:any
-        el.lyrics.forEach(el => {
-          if (el.locale == 'es' ) {
-            himno = el
+      data.forEach((el:any) => {
+        let himno=Object.assign({})  //una especie de inicializacion
+        el.lyrics.forEach((el:any) => {
+          if (el['locale'] == 'es' ) {
+            himno.contenido = el.content
+            himno.idioma = el.locale
+            himno.autor = el.author
           }
         })
-        el.urls.forEach(el => {
+        el.urls.forEach((el:any) => {
           if (el.type == 'youtube') {
-            himno.url = el.url
+            himno.urlYoutube = el.url
+          }
+        })
+        el.titles.forEach((el:any) => {
+          if (el.locale == 'es') {
+            himno.titulo = el.title
           }
         })
         himno.autores = el.musicAuthor 
@@ -36,16 +43,31 @@ export class HimnosService {
 
   buscarHimnos( termino:string, himnos:any){
     let himnosArr:any=[]
-    termino = termino.toLowerCase()
+    termino = termino.toLowerCase().trim()
     for (let i = 0; i < himnos.length; i++) {
       let himno = himnos[i]
-      let nome = himno.title?.toLowerCase()
+      let nome = this.eliminarDiacriticos (himno.titulo.toLowerCase())
       let numero = himno.numero.toString()
-
+      
       if (nome?.indexOf(termino) >= 0 || numero == termino) {
         himnosArr.push(himno)
       }
     }
     return himnosArr
   }
+
+  eliminarDiacriticos(cadena:string) {
+    return cadena.normalize('NFD').replace(/[\u0300-\u036f]/g,"");
+  }
+}
+
+export interface Himno {
+  numero:number
+  contenido:string
+  titulo:string
+  autores:Array<string>
+  autor:string
+  urlYoutube:string
+  idioma:string
+  resumen?:string
 }

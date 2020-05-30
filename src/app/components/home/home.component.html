@@ -1,34 +1,47 @@
-<div class=" wedding-thanks container mt-5 text-center">
-  <h3 style="font-family: 'Great Vibes', cursive; font-size: 5rem; color: #47185a;">Himnario Adventista</h3>
+<div class=" wedding-thanks container mt-5 text-center animated fadeIn fast">
+  <h3 style="font-family: 'Great Vibes', cursive; font-size: 2.5rem; color: #47185a;">Himnario Adventista <br> en Español</h3>
 </div>
-<form    class="input-group m-5 text-center " 
+<div class="container px-lg-5 animated fadeIn fast">
+  <form class="input-group md-form form-sm form-2 pl-0 mt-5 mb-3"
         [formGroup]="forma" (ngSubmit)="buscarHimnos()">
-            <input  type="text" 
-                    class="form-control col-8 " 
-                    placeholder="Buscar Himno"
-                    formControlName="termino"
-                    autofocus >
-            <button class="btn btn-outline-primary" 
-                    type="submit" 
-                    style="color: #47185a;"> 
-                    <i class="fas fa-search"></i> Buscar </button>
-</form>
+    <input  class="form-control my-0 py-1 red-border" 
+            type="text" 
+            placeholder="Buscar himno" 
+            aria-label="Search"
+            formControlName="termino"
+            autofocus 
+            (keyup.enter)="buscarHimnos()">
+    <div class="input-group-append">
+      <button type="submit" class="input-group-text red lighten-3" style="background: #47185a;">
+        <i class="fas fa-search text-grey"
+          aria-hidden="true" 
+          style="color: antiquewhite;"></i></button>
+    </div>
+  </form>
+</div>
 
 <!-- RESULTADO DE LOS HIMNOS -->
+
+<span class="form-text my-3" *ngIf="terminoBusca">Resultados para: "{{terminoBusca}}"</span>
+<div class="alert alert-danger" role="alert" *ngIf="himnos.length == 0 && resulPronto">
+  No se encontraron resultados..
+</div>
+
 <div class="row row-cols-1 row-cols-md-3">
     <div class="col mb-4" *ngFor="let himno of himnos">
-      <div class="card h-100">
+      <div class="card h-100 animated fadeIn fast">
         <div class="text-center mt-4">
-            <a [href]="himno.url" target="_blank"><i class="fab fa-youtube fa-3x" style="color: #c4302b;" ></i></a>
+            <!-- <a [href]="himno.urlYoutube" target="_blank"><i class="fab fa-youtube fa-3x" style="color: #c4302b;" ></i></a> -->
+            <a [href]="himno.urlYoutube" target="_blank"> <img src="assets/img/youtube.svg" width="40" alt=""></a>
         </div>
         <div>
         <div class="card-body">
             <div class="text-center">
                 <h5 class="card-title">{{himno.numero}}</h5>
-                <h5 class="card-title">{{himno.title}}</h5>
+                <h5 class="card-title">{{himno.titulo}}</h5>
             </div>
             <div>
-                <p class="card-text" style="white-space: pre-line">{{himno.content}}</p>
+                <p class="card-text" style="white-space: pre-line">{{himno.contenido}}</p>
             </div>
             <footer class="blockquote-footer blockquote mb-0">
                 <small class="text-muted">
