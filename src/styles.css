@@ -11,6 +11,10 @@ body {
     height: 80px;
 }
 
+.puntero {
+    cursor: pointer;
+}
+
 
 /* animações */
 

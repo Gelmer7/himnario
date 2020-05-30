@@ -1072,12 +1072,6 @@
                 "listedIn": "hymnalEs2009",
                 "locale": "es",
                 "title": "Load al Padre"
-            },
-            {
-                "author": "Juan Marron",
-                "content": "71 – Load al Padre\n\n1\nLoad al Padre por su omnipotencia;\nLoad al Padre, proclamad su gracia.\nVoz de alabanza alce toda alma.\n¡Load al padre!\n2\n Gloria al Padre por sua gran ternura,\n Gloria al Padre, sea siempre el canto.\n Por su grandeza alabadle todos\n ¡Gloria al Padre!\n3\n Honrad al Padre, el Señor benigno;\n Honrad al Padre, quien os da la vida.\n Huestes del cielo, pueblos de la tierra,\n ¡Honrad al Padre!",
-                "listedIn": "hymnalEs1962",
-                "locale": "es"
             }
         ],
         "musicAuthor": [
@@ -1701,12 +1695,6 @@
                 "content": "28 – Tu pueblo jubiloso\n\n1\nTu pueblo jubiloso se acerca a ti, Señor,\ny con triunfantes voces hoy canta tu loor;\npor todas tus bondades que das en plenitud,\ntu pueblo humildemente te expresa gratitud.\n2\n Aunque el humano nunca te pueda aquí palpar,\n tú siempre con los tuyos has prometido estar;\n los cielos te revelan, Rey nuestro y Creador,\n sentimos tu presencia en nuestro ser, Señor.\n3\n ¡Oh, Cristo!, te adoramos, te damos nuestro amor;\n ¡oh!, llena nuestras vidas de fuerza, fe y valor;\n impártanos tu gracia la vida celestial;\n que siempre te rindamos adoración leal.",
                 "locale": "es",
                 "title": "Tu pueblo jubiloso"
-            },
-            {
-                "author": "Anónimo",
-                "content": "29 – Del culto el tiempo llega\n\n1\nDel culto el tiempo llega, comienza la oración,\nel alma a Dios se entrega, ¡silencio y atención!\nSi al santo Dios la mente queremos elevar,\nsilencio reverente habremos de guardar.\n2\n Mil coros celestiales a Dios cantando están.\n Con ellos los mortales sus voces unirán.\n Alcemos pues el alma en santa devoción,\n gozando en dulce calma de Dios la comunión.\n3\n La Biblia bendecida, de Dios revelación,\n a meditar convida en nuestra condición.\n ¡Silencio!, que ha llegado del culto la ocasión;\n Dios se halla a nuestro lado, ¡silencio y devoción!",
-                "locale": "es",
-                "title": "Del culto el tiempo llega"
             }
         ],
         "musicAuthor": [
@@ -1716,10 +1704,6 @@
             {
                 "locale": "es",
                 "title": "Tu pueblo jubiloso"
-            },
-            {
-                "locale": "es",
-                "title": "Del culto el tiempo llega"
             },
             {
                 "locale": "en",
@@ -1743,7 +1727,56 @@
                 "locale": "es",
                 "type": "youtube",
                 "url": "https://www.youtube.com/embed/hrwGznvoj38?rel=0;autoplay=1"
+            }
+            
+        ]
+    },
+    {
+        "_number": 29,
+        "listedIn": [
+           
+            {
+                "locale": "es",
+                "name": "hymnalEs2009",
+                "number": 29,
+                "title": "Del culto el tiempo llega"
             },
+            {
+                "locale": "es",
+                "name": "hymnalEs1962",
+                "number": 31,
+                "title": "Del culto el tiempo llega"
+            }
+        ],
+        "lyrics": [
+            
+            {
+                "author": "Anónimo",
+                "content": "29 – Del culto el tiempo llega\n\n1\nDel culto el tiempo llega, comienza la oración,\nel alma a Dios se entrega, ¡silencio y atención!\nSi al santo Dios la mente queremos elevar,\nsilencio reverente habremos de guardar.\n2\n Mil coros celestiales a Dios cantando están.\n Con ellos los mortales sus voces unirán.\n Alcemos pues el alma en santa devoción,\n gozando en dulce calma de Dios la comunión.\n3\n La Biblia bendecida, de Dios revelación,\n a meditar convida en nuestra condición.\n ¡Silencio!, que ha llegado del culto la ocasión;\n Dios se halla a nuestro lado, ¡silencio y devoción!",
+                "locale": "es",
+                "title": "Del culto el tiempo llega"
+            }
+        ],
+        "musicAuthor": [
+            "Samuel S. Wesley"
+        ],
+        "titles": [
+            {
+                "locale": "es",
+                "title": "Del culto el tiempo llega"
+            },
+            {
+                "locale": "en",
+                "title": "The Church Has One Foundation"
+            },
+            {
+                "locale": "en",
+                "title": "Aurelia",
+                "tuneTitle": true
+            }
+        ],
+        "urls": [
+            
             {
                 "inList": "hymnalEs2009",
                 "locale": "es",
@@ -2713,10 +2746,6 @@
                 "locale": "en",
                 "title": "Bunessan",
                 "tuneTitle": true
-            },
-            {
-                "locale": "es",
-                "title": "Melodia tradicional gaélica"
             }
         ],
         "urls": [
@@ -7491,10 +7520,6 @@
             {
                 "locale": "es",
                 "title": "De su trono, mi Jesús"
-            },
-            {
-                "locale": "es",
-                "title": "Sí, Cristo me ama"
             },
             {
                 "locale": "en",
@@ -12855,12 +12880,6 @@
                 "title": "Santo Espíritu llena mi vida"
             },
             {
-                "author": "Roberto C. Savage",
-                "content": "\nCon aceite mi lámpara brilla,\nY su luz me inspira a orar.\nCon aceite mi lámpara brilla\nBrillará hasta que venga el fin.\n\nCanta al Rey, sí. Canta al Rey, sí.\nCanta hosannas a Jesús el Rey\nCanta al Rey, sí. Canta al Rey, sí.\nCanta hosannas hoy al Rey. ",
-                "locale": "es",
-                "title": "Con aceite mi lámpara brilla"
-            },
-            {
                 "author": "Lidio Vargas Riquelme",
                 "content": "\nTesape che ñe´ãme hendýma\nHa che ãgui ose ñembo´e\nTesape che ñe´ãme hendýma\nNdogueichéne araka´eve\n\nChe ñe´ãgui apurahéita\nHa ambotuicháta pe che Rey\nChe ñe´ãgui apurahéita\nHa tambo tuicha che Rey. ",
                 "locale": "gn",
@@ -12876,10 +12895,6 @@
             {
                 "locale": "en",
                 "title": "Give Me Oil in My Lamp"
-            },
-            {
-                "locale": "es",
-                "title": "Con aceite mi lámpara brilla"
             },
             {
                 "locale": "gn",
@@ -22846,12 +22861,6 @@
                 "title": "Suenan melodías en mi ser"
             },
             {
-                "author": "L G M.",
-                "content": "\nEn mi alma suena un cantar\nSí, suena un cantar en tono angelical\nEn mi alma suena un cantar\nSí, suena un cantar de amor. ",
-                "locale": "es",
-                "title": "En mi alma suena un cantar"
-            },
-            {
                 "author": "Lidio Vargas Riquelme",
                 "content": "\nPurahéi che ãme ipu asy,\nChe ãme ipu asy há amomba’e che Ru.\nPurahéi che ãme ipu asy,\nChe ãgui osema mborayhu. ",
                 "locale": "gn",
@@ -22874,10 +22883,6 @@
                 "locale": "en",
                 "title": "Heart Melody",
                 "tuneTitle": true
-            },
-            {
-                "locale": "es",
-                "title": "En mi alma suena un cantar"
             },
             {
                 "locale": "gn",
@@ -24012,10 +24017,6 @@
             {
                 "locale": "es",
                 "title": "Jesús te ama"
-            },
-            {
-                "locale": "es",
-                "title": "Gracias te doy"
             },
             {
                 "locale": "gn",
@@ -27540,12 +27541,6 @@
             {
                 "author": "F. Cook y Robert C. Savage",
                 "content": "425 – Día en día\n\n1\nDía en día Cristo está conmigo,\nme consuela en medio del dolor.\nPues confiando en su poder eterno,\nno me afano, ni me da temor.\nSobrepuja todo entendimiento\nla perfecta paz del Salvador.\nEn su amor tan grande e infinito\nsiempre me dará lo que es mejor.\n2\n Día en día Cristo me acompaña\n y me brinda dulce comunión.\n Todos mis cuidados él los lleva;\n a él entrego mi alma y corazón.\n No hay medida del amor supremo\n de mi bondadoso y fiel Pastor.\n Él me suple lo que necesito\n pues el Pan de vida es mi Señor.\n3\n Oh, Señor, ayúdame este día\n a vivir de tal manera aquí\n que tu nombre esté glorificado\n pues anhelo honrarte sólo a ti.\n Con la diestra de tu gran justicia\n me sustentas en la turbación.\n Tus promesas son sostén y guía,\n siempre en ellas hay consolación.",
-                "locale": "es",
-                "title": "Día en día"
-            },
-            {
-                "author": "F. Cook y Roberto C. Savage",
-                "content": "\n[1] Día en día Cristo está conmigo,\nMe consuela en medio del dolor.\nPues confiado en su poder eterno,\nNo me afano, ni me da temor.\n\nCoro\nSobrepuja todo entendimiento\nLa perfecta paz del Salvador.\nEn su amor tan grande infinito\nSiempre me dará lo que es mejor\n\n[2] Oh, Señor, ayúdame este día\nA vivir de tal manera aquí\nQue tu nombre sea glorificado\nPues anhelo honrarte solo a ti. ",
                 "locale": "es",
                 "title": "Día en día"
             },
@@ -31224,12 +31219,6 @@
                 "title": "Unidos en verdad"
             },
             {
-                "author": null,
-                "content": "\n1. Lado a lado estoy con mi Salvador,\nMi amigo es Jesús.\nVivo por su amor, con él yo soy feliz\nY de su mano siempre voy.\n\nCoro\nOh, ven conmigo, juntemos las manos\nAquí donde está Jesús.\nOh, ven cantemos en el mundo oscuro\nQue Cristo es nuestra luz.\n\n2. Solo te sentís, \ny en nadie confias\nTodo es odio alrededor.\nPero, en Jesús encontrarás amor,\nÉl te dará felicidad. ",
-                "locale": "es",
-                "title": "Lado a lado"
-            },
-            {
                 "author": "Lidio Vargas Riquelme",
                 "content": "\n1. Ojoykerete Jesúndi aikoseve,\nHese che aikoteve.\nChe rekorory, ha aiko imborayhú rupi\nIpógui aguata akoiete.\n\nCoro\nEju, che iru ha ndepojái che póre\nJesúpe ñañembo ‘e\nJapurahéi ko mundo pytuetépe,\nJesu to hesape nde rekove.\n\n2. Nde año reñeñandu \nHa nde rejeroviái,\nÑaña ojere nderehe.\nHa pe mborayhu ha pe vy’a pave\nJesu ome’eta ndéve katuete. ",
                 "locale": "gn",
@@ -31247,10 +31236,6 @@
             {
                 "locale": "es",
                 "title": "Unidos en verdad"
-            },
-            {
-                "locale": "es",
-                "title": "Lado a lado"
             },
             {
                 "locale": "en",
@@ -37144,10 +37129,6 @@
                 "title": "El pueblo que a su Dios conoce"
             },
             {
-                "locale": "es",
-                "title": "Atardece en el mundo"
-            },
-            {
                 "locale": "gn",
                 "title": "Ka´arúma arapýpe"
             }
@@ -37278,10 +37259,6 @@
         ],
         "notes": "Melodia tradicional norteamericana. Repository of Sacred Music",
         "titles": [
-            {
-                "locale": "es",
-                "title": "En las aguas de la muerte"
-            },
             {
                 "locale": "es",
                 "title": "Las aguas del bautismo"
@@ -37513,7 +37490,7 @@
         "musicAuthor": [
             "Felix Mendelssohn"
         ],
-        "notes": ". Melodía tradicional alemana, 1693",
+        "notes": "Melodía tradicional alemana, 1693",
         "titles": [
             {
                 "locale": "es",

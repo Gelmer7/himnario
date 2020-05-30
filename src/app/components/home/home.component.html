@@ -21,8 +21,9 @@
 </div>
 
 <!-- RESULTADO DE LOS HIMNOS -->
+<app-loading *ngIf="!resulPronto && terminoBusca"></app-loading>
 
-<span class="form-text my-3" *ngIf="terminoBusca">Resultados para: "{{terminoBusca}}"</span>
+<span class="form-text my-3" *ngIf="terminoBusca"> Resultados para <span class="text-primary">"{{terminoBusca}}"</span> : ({{himnos.length}})</span>
 <div class="alert alert-danger" role="alert" *ngIf="himnos.length == 0 && resulPronto">
   No se encontraron resultados..
 </div>
@@ -30,26 +31,20 @@
 <div class="row row-cols-1 row-cols-md-3">
     <div class="col mb-4" *ngFor="let himno of himnos">
       <div class="card h-100 animated fadeIn fast">
-        <div class="text-center mt-4">
-            <!-- <a [href]="himno.urlYoutube" target="_blank"><i class="fab fa-youtube fa-3x" style="color: #c4302b;" ></i></a> -->
-            <a [href]="himno.urlYoutube" target="_blank"> <img src="assets/img/youtube.svg" width="40" alt=""></a>
+        <div class="text-center card-header">
+            <a [href]="himno.urlYoutube" target="_blank"> <img src="assets/img/youtube.svg" width="40" alt="" title="YouTube"></a>
         </div>
         <div>
-        <div class="card-body">
+        <div class="card-body puntero" title="Ver Himno" (click)="verHimno(himno)">
             <div class="text-center">
                 <h5 class="card-title">{{himno.numero}}</h5>
                 <h5 class="card-title">{{himno.titulo}}</h5>
             </div>
             <div>
-                <p class="card-text" style="white-space: pre-line">{{himno.contenido}}</p>
+                <p class="card-text" style="white-space: pre-line">{{himno.resumen}}</p>
             </div>
-            <footer class="blockquote-footer blockquote mb-0">
-                <small class="text-muted">
-                  Autor: <cite title="Source Title">{{himno.autores}}</cite>
-                </small>
-              </footer>
         </div>
       </div>
     </div>
-
-
+  </div>
+</div>

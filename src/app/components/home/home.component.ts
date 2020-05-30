@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HimnosService, Himno } from 'src/app/services/himnos.service';
 import { FormBuilder, FormGroup, FormControl } from '@angular/forms';
-import { isUndefined } from 'util';
-
+import { Router,NavigationExtras } from "@angular/router";
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -18,7 +17,8 @@ export class HomeComponent implements OnInit {
   himnos:Himno [] = []
 
   constructor(  private himnosService:HimnosService,
-                private fb:FormBuilder) {
+                private fb:FormBuilder,
+                private router:Router) {
   this.creaFormulario()
   }
 
@@ -42,9 +42,10 @@ export class HomeComponent implements OnInit {
     
     this.himnosService.getHimnos(this.terminoBusca).subscribe(val=>{
       this.himnos = val
-      console.log("home: ",this.himnos)
       this.resulPronto = true
     })
   }
-
+  verHimno(himno:any){
+    this.router.navigate(['/himno'],himno)
+  }
 }
