@@ -13,12 +13,20 @@ export class HimnoComponent implements OnInit {
   himno:any
 
   constructor(  private router:Router) {
-    this.himno = this.router.getCurrentNavigation().extras
-    console.log(this.himno);
+
+    if (this.router.getCurrentNavigation().extras.replaceUrl) {
+      this.himno = JSON.parse(localStorage.getItem("himno"))
+    } else{
+      this.himno = this.router.getCurrentNavigation().extras
+      this.guardarStorage()
+    }
    }
 
   ngOnInit(): void {
+  }
 
+  guardarStorage(){
+    localStorage.setItem("himno",JSON.stringify(this.himno))
   }
 
 }
