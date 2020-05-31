@@ -2,49 +2,22 @@
   <h3 style="font-family: 'Great Vibes', cursive; font-size: 2.5rem; color: #47185a;">Himnario Adventista <br> en Español</h3>
 </div>
 <div class="container px-lg-5 animated fadeIn fast">
-  <form class="input-group md-form form-sm form-2 pl-0 mt-5 mb-3"
-        [formGroup]="forma" (ngSubmit)="buscarHimnos()">
+  <div class="input-group md-form form-sm form-2 pl-0 mt-5 mb-3">
     <input  class="form-control my-0 py-1 red-border" 
-            type="text" 
+            type="search" 
             placeholder="Buscar himno" 
             aria-label="Search"
-            formControlName="termino"
-            autofocus 
-            (keyup.enter)="buscarHimnos()">
+            autofocus="true"
+            (keyup.enter)="buscarHimnos(terminoBusca.value)"
+            #terminoBusca>
     <div class="input-group-append">
-      <button type="submit" class="input-group-text red lighten-3" style="background: #47185a;">
+      <button type="button" 
+      class="input-group-text red lighten-3" 
+      style="background: #47185a;"
+      (click)="buscarHimnos(terminoBusca.value)">
         <i class="fas fa-search text-grey"
           aria-hidden="true" 
           style="color: antiquewhite;"></i></button>
-    </div>
-  </form>
-</div>
-
-<!-- RESULTADO DE LOS HIMNOS -->
-<app-loading *ngIf="!resulPronto && terminoBusca"></app-loading>
-
-<span class="form-text my-3" *ngIf="terminoBusca"> Resultados para <span class="text-primary">"{{terminoBusca}}"</span> : ({{himnos.length}})</span>
-<div class="alert alert-danger" role="alert" *ngIf="himnos.length == 0 && resulPronto">
-  No se encontraron resultados..
-</div>
-
-<div class="row row-cols-1 row-cols-md-3">
-    <div class="col mb-4" *ngFor="let himno of himnos">
-      <div class="card h-100 animated fadeIn fast">
-        <div class="text-center card-header">
-            <a [href]="himno.urlYoutube" target="_blank"> <img src="assets/img/youtube.svg" width="40" alt="" title="YouTube"></a>
-        </div>
-        <div>
-        <div class="card-body puntero" title="Ver Himno" (click)="verHimno(himno)">
-            <div class="text-center">
-                <h5 class="card-title">{{himno.numero}}</h5>
-                <h5 class="card-title">{{himno.titulo}}</h5>
-            </div>
-            <div>
-                <p class="card-text" style="white-space: pre-line">{{himno.resumen}}</p>
-            </div>
-        </div>
-      </div>
     </div>
   </div>
 </div>

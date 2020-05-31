@@ -12,6 +12,7 @@ import { HttpClientModule } from "@angular/common/http";
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { LoadingComponent } from './components/shared/loading/loading.component';
 import { HimnoComponent } from './components/himno/himno.component';
+import { BuscadorComponent } from './components/buscador/buscador.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HimnoComponent } from './components/himno/himno.component';
     CategoriasComponent,
     FooterComponent,
     LoadingComponent,
-    HimnoComponent
+    HimnoComponent,
+    BuscadorComponent
   ],
   imports: [
     BrowserModule,
