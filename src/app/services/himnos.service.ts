@@ -93,6 +93,9 @@ export class HimnosService {
   eliminarDiacriticos(cadena:string) {
     return cadena.normalize('NFD').replace(/[\u0300-\u036f]/g,"");
   }
+  getCategorias(){
+    return this.http.get<Categoria[]>('assets/json/categorias.json')
+  }
 }
 
 export interface Himno {

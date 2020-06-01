@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HimnosService, Himno, Categoria } from 'src/app/services/himnos.service';
 
 @Component({
   selector: 'app-categorias',
@@ -7,8 +8,15 @@ import { Component, OnInit } from '@angular/core';
   ]
 })
 export class CategoriasComponent implements OnInit {
+  categorias:Categoria [] = []
 
-  constructor() { }
+  constructor( private himnosService:HimnosService) { 
+    this.himnosService.getCategorias()
+    .subscribe( (val) => {
+      this.categorias = val
+      console.log(this.categorias);
+    })
+  }
 
   ngOnInit(): void {
   }

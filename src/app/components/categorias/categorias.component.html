@@ -1,5 +1,27 @@
-<div class="row m-5 text-center animated fadeIn fast">
+<div class="row my-3 animated fadeIn fast">
     <div class="col shadow-lg p-3 mb-5 bg-white rounded">
-        <p>Em breve...</p>
+        <div *ngFor="let categoria of categorias; let i=index">
+            <h3 style="color: #47185a;">{{i+1}} - {{categoria.titulo}}</h3>
+
+            <div class="mb-4">
+                <table class="table">
+                    <thead class="thead-light">
+                        <tr>
+                            <th></th>
+                            <th>Sub-categoria</th>
+                            <th>himnos</th>
+                        </tr>
+                    </thead>
+                    <tbody *ngFor="let subCategoria of categoria.subCategoria; let i=index">
+                        <tr>
+                            <td>{{i+1}}</td>
+                            <td>{{subCategoria.titulo}}</td>
+                            <td>{{subCategoria.himnos.length}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+        </div>
     </div>
 </div>
