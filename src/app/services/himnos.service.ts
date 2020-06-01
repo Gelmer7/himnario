@@ -107,3 +107,11 @@ export interface Himno {
   edicion:string
   resumen?:string
 }
+export interface Categoria {
+  titulo: string
+  subCategoria: Array<SubCategoria>
+}
+export interface SubCategoria {
+  titulo: string
+  himnos: Array<number>
+}
