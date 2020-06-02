@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from "@angular/router";
-import { Himno } from 'src/app/services/himnos.service';
+import { Himno, HimnosService } from 'src/app/services/himnos.service';
 
 @Component({
   selector: 'app-himno',
@@ -11,13 +11,16 @@ import { Himno } from 'src/app/services/himnos.service';
 export class HimnoComponent implements OnInit {
 
   himno:any
+  categorias:Object = {}
 
-  constructor(  private router:Router) {
+  constructor(  private router:Router,
+                private himnoService:HimnosService) {
 
     if (this.router.getCurrentNavigation().extras.replaceUrl) {
       this.himno = JSON.parse(localStorage.getItem("himno"))
     } else{
       this.himno = this.router.getCurrentNavigation().extras
+      console.log(this.himno);
       this.guardarStorage()
     }
    }
@@ -27,6 +30,18 @@ export class HimnoComponent implements OnInit {
 
   guardarStorage(){
     localStorage.setItem("himno",JSON.stringify(this.himno))
+  }
+  verSubCategoria( himno: Object){
+    
+    let buscaCategoria:Object = {
+      idsub:himno['idsubCat'],
+      catTitulo:himno['catTitulo'],
+      subTitulo:himno['subTitulo'],
+    }
+    this.router.navigate(['/buscacategoria'],buscaCategoria)
+  }
+  reportarErro(himno: Object){
+
   }
 
 }

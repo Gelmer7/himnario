@@ -13,7 +13,7 @@
                         </tr>
                     </thead>
                     <tbody *ngFor="let subCategoria of categoria.subCategoria; let i=index">
-                        <tr>
+                        <tr  class="card-body puntero"  (click)="verSubCategoria(subCategoria.id, categoria.titulo, subCategoria.titulo)">
                             <td>{{i+1}}</td>
                             <td>{{subCategoria.titulo}}</td>
                             <td>{{subCategoria.himnos.length}}</td>
@@ -25,3 +25,4 @@
         </div>
     </div>
 </div>
+

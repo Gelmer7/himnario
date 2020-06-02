@@ -6,41 +6,129 @@ import { map } from "rxjs/operators";
 })
 export class HimnosService {
   
-
+  catego:any[]=[]
+ 
   constructor( private http:HttpClient ) { 
   }
 
-  himnos(){
-    let himnos:any="hola"
-   
-    return this.http.get('assets/json/himnos.json')
-    .pipe(
-      map((himn:any) =>{
-        himn.forEach((parteHimno:any) => {
-          let contador:number = 0
+  getHimnos( termino:string){
+    let himnos:Himno[]=[]
+    return this.http.get('assets/json/himnosV2.json')
+    .pipe(map( (data:Himno) =>{
 
-          parteHimno.urls.forEach(elem => {  //lyric
-            if (elem.locale == 'es' && elem.type == 'youtube') {
-              contador++
+      return this.buscarHimnos(termino, data)
+    }))
+  }
+  getHimnosCategoria(idsubCat:string){
+    let himnos:Himno[]=[]
+    return this.http.get('assets/json/himnosV2.json')
+    .pipe(map( (hims:any[]) =>{
+      hims.forEach((himn:any) => {
+        if (himn.idsubCat == idsubCat) {
+          himnos.push(himn)
+        }
+      });
+      return himnos
+    }))
+  }
+  buscaCategoria( idsubCategoria: string){
+    return this.http.get('assets/json/categorias.json')
+    .pipe(map( (cates:any[]) =>{
+      cates.forEach(cat => {
+        cat.subCategoria.forEach(sub => {
+          if (sub.id == idsubCategoria) {
+            console.log("ids: ", sub.id, idsubCategoria);
+            return {
+              categoria:cat.titulo,
+              subCategoria:sub.titulo
             }
-          })
-          if (contador >1) {
-              console.log(" =2: ",parteHimno);
-            }
-            if (contador == 1) {
-              console.log("conatdor :1");
-            }
-            if (contador == 0) {
-              console.log("conatdor :0", parteHimno);
-            }
-          
+          }
         })
-        return "hola"
       })
-    )
+      console.log('cates: ', cates);
+    }))
   }
 
-  getHimnos( termino:string){
+  buscarHimnos( termino:string, himnos:any){
+    let himnosArr:any=[]
+    termino = termino.toLowerCase().trim()
+    for (let i = 0; i < himnos.length; i++) {
+      let himno = himnos[i]
+      let nome = this.eliminarDiacriticos (himno.titulo.toLowerCase())
+      let numero = himno.numero.toString()
+      
+      if (nome?.indexOf(termino) >= 0 || numero == termino) {
+        himnosArr.push(himno)
+      }
+    }
+    return himnosArr
+  }
+
+  eliminarDiacriticos(cadena:string) {
+    return cadena.normalize('NFD').replace(/[\u0300-\u036f]/g,"");
+  }
+
+  
+  getCategorias(){    //funcao que cria ids de categoria e subcategoria
+    let categ:number = 0
+    return this.http.get<Categoria[]>('assets/json/categorias.json')
+    /*.pipe(map( val =>{    
+      val.forEach(categoria => {
+        categoria.id = 'idcat'+(categ++).toString()+'a'
+        let subCateg:number = 0
+        categoria.subCategoria.forEach(subCat => {
+          subCat.id = 'idsub'+(subCateg++).toString()+'a'
+        });
+      });
+      return val
+    })) */
+  }
+
+/*   himnos(){  //obtem himnos no formato simplificado, 
+    return this.http.get('assets/json/himnosok.json')
+    .pipe(
+      map((himn:any[]) =>{
+        himn.forEach(himno => {
+          this.categoriaNumero.forEach(num => {
+            if (himno.numero == num.numero) {
+              himno.idcat =   num.cat
+              himno.idsubCat =   num.sub
+              himno.catTitulo = num.catTitulo
+              himno.subTitulo = num.subCatTitulo
+            }
+          });
+        });
+        console.log("himno: ",himn);
+        return himn
+      })
+    )
+  } */
+
+ /*  categorias(){    //acrescenta id de categorias e subcategorias no objeto himno
+   return this.http.get('assets/json/categorias.json')
+    .pipe(
+      map( (val:any[]) =>{
+        val.forEach((cat:any) => {
+          cat.subCategoria.forEach((sub:any) => {
+            sub.himnos.forEach(him => {
+              this.catego.push({
+                numero:him,
+                cat:cat.id,
+                sub:sub.id,
+                catTitulo:cat.titulo,
+                subCatTitulo:sub.titulo
+
+              })
+            });
+            
+          })
+        });
+        return this.catego
+      })
+    )
+  } */
+
+  /* getHimnos( termino:string){ //funcao que pega himnos do json original
     let himnos:Himno[]=[]
     return this.http.get('assets/json/himnos.json')
     .pipe(map( (data:any) =>{
@@ -73,29 +161,10 @@ export class HimnosService {
       })
       return this.buscarHimnos(termino, himnos)
     }))
-  }
+  } */
 
-  buscarHimnos( termino:string, himnos:any){
-    let himnosArr:any=[]
-    termino = termino.toLowerCase().trim()
-    for (let i = 0; i < himnos.length; i++) {
-      let himno = himnos[i]
-      let nome = this.eliminarDiacriticos (himno.titulo.toLowerCase())
-      let numero = himno.numero.toString()
-      
-      if (nome?.indexOf(termino) >= 0 || numero == termino) {
-        himnosArr.push(himno)
-      }
-    }
-    return himnosArr
-  }
 
-  eliminarDiacriticos(cadena:string) {
-    return cadena.normalize('NFD').replace(/[\u0300-\u036f]/g,"");
-  }
-  getCategorias(){
-    return this.http.get<Categoria[]>('assets/json/categorias.json')
-  }
+
 }
 
 export interface Himno {
@@ -109,12 +178,17 @@ export interface Himno {
   idioma:string
   edicion:string
   resumen?:string
+  idcategoria?:string
+  idsubCategoria?:string
 }
 export interface Categoria {
   titulo: string
   subCategoria: Array<SubCategoria>
+  id:string
 }
 export interface SubCategoria {
   titulo: string
   himnos: Array<number>
+  id:string
+  categoria?:string
 }

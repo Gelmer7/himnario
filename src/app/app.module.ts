@@ -13,6 +13,7 @@ import { FooterComponent } from './components/shared/footer/footer.component';
 import { LoadingComponent } from './components/shared/loading/loading.component';
 import { HimnoComponent } from './components/himno/himno.component';
 import { BuscadorComponent } from './components/buscador/buscador.component';
+import { BuscarCategoriaComponent } from './components/buscar-categoria/buscar-categoria.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { BuscadorComponent } from './components/buscador/buscador.component';
     FooterComponent,
     LoadingComponent,
     HimnoComponent,
-    BuscadorComponent
+    BuscadorComponent,
+    BuscarCategoriaComponent
   ],
   imports: [
     BrowserModule,

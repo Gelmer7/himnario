@@ -5,6 +5,7 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { HimnoComponent } from './components/himno/himno.component';
 import { BuscadorComponent } from './components/buscador/buscador.component';
+import { BuscarCategoriaComponent } from './components/buscar-categoria/buscar-categoria.component';
 
 
 const routes: Routes = [
@@ -12,7 +13,8 @@ const routes: Routes = [
   { path: 'categorias', component:CategoriasComponent},
   { path: 'about', component:AboutComponent},
   { path: 'himno', component:HimnoComponent},
-  { path: 'buscador/:id', component:BuscadorComponent},
+  { path: 'buscahimno/:id', component:BuscadorComponent},
+  { path: 'buscacategoria', component:BuscarCategoriaComponent},
   { path: '', pathMatch:'full', redirectTo:'home'},
   { path: '**', pathMatch:'full', redirectTo:'home'},
 

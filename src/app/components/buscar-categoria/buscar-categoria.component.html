@@ -1,0 +1,26 @@
+<!-- HIMNOS DE ACORDO COM A CATEGORIA -->
+<div class=" wedding-thanks container my-3 text-center animated fadeIn fast">
+    <h5 style="color: #47185a;">{{subCategoria.catTitulo}}</h5>
+    <h3 style="font-family: 'Great Vibes', cursive; font-size: 2.5rem; color: #47185a;"> {{subCategoria.subTitulo}}</h3>
+</div>
+
+<div class="row row-cols-1 row-cols-md-3">
+  <div class="col mb-4" *ngFor="let himno of himnos">
+    <div class="card h-100 animated fadeIn fast">
+      <div class="text-center card-header">
+          <a [href]="himno.urlYoutube" target="_blank"> <img src="assets/img/youtube.svg" width="40" alt="" title="YouTube"></a>
+      </div>
+      <div>
+      <div class="card-body puntero" title="Ver Himno" (click)="verHimno(himno)">
+          <div class="text-center">
+              <h5 class="card-title">{{himno.numero}}</h5>
+              <h5 class="card-title">{{himno.titulo}}</h5>
+          </div>
+          <div>
+              <p class="card-text text-truncate" style="white-space: pre-line">{{himno.resumen}}</p>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>

@@ -1,264 +1,907 @@
 [
     {
-        "titulo":"El Culto",
-        "subCategoria":[
-            {
-                "titulo":"Adoratión y alabanza",
-                "himnos":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
-            },
-            {
-                "titulo":"Apertura",
-                "himnos":[25,26,27,28,29,30,31]  
-            },
-            {
-                "titulo":"Clausura",
-                "himnos":[32,33,34,35,36,37]  
-            },
-            {
-                "titulo":"Matutinos",
-                "himnos":[38,39,40]  
-            },
-            {
-                "titulo":"Vespertinos",
-                "himnos":[41,42,43,44,45,46,47,48,49,50]  
-            },
-            {
-                "titulo":"Preces",
-                "himnos":[51,52,53,54,55,56,57,58,59,60]  
-            }
-        ]
+      "titulo": "El Culto",
+      "subCategoria": [
+        {
+          "titulo": "Adoratión y alabanza",
+          "himnos": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "id": "idsub0a"
+        },
+        {
+          "titulo": "Apertura",
+          "himnos": [
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "id": "idsub1a"
+        },
+        {
+          "titulo": "Clausura",
+          "himnos": [
+            32,
+            33,
+            34,
+            35,
+            36,
+            37
+          ],
+          "id": "idsub2a"
+        },
+        {
+          "titulo": "Matutinos",
+          "himnos": [
+            38,
+            39,
+            40
+          ],
+          "id": "idsub3a"
+        },
+        {
+          "titulo": "Vespertinos",
+          "himnos": [
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50
+          ],
+          "id": "idsub4a"
+        },
+        {
+          "titulo": "Preces",
+          "himnos": [
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60
+          ],
+          "id": "idsub5a"
+        }
+      ],
+      "id": "idcat0a"
     },
     {
-        "titulo":"Dios el padre",
-        "subCategoria":[
-            {
-                "titulo":"Su amor",
-                "himnos":[61,62,63,64]  
-            },
-            {
-                "titulo":"Su majestad y poder",
-                "himnos":[65,66,67,68,69,70,71,72]  
-            },
-            {
-                "titulo":"Su providencia",
-                "himnos":[73,74,75,76]  
-            },
-            {
-                "titulo":"Su poder en la naturaleza",
-                "himnos":[77,78,79,80,81]  
-            }
-        ]
+      "titulo": "Dios el padre",
+      "subCategoria": [
+        {
+          "titulo": "Su amor",
+          "himnos": [
+            61,
+            62,
+            63,
+            64
+          ],
+          "id": "idsub0a"
+        },
+        {
+          "titulo": "Su majestad y poder",
+          "himnos": [
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72
+          ],
+          "id": "idsub1a"
+        },
+        {
+          "titulo": "Su providencia",
+          "himnos": [
+            73,
+            74,
+            75,
+            76
+          ],
+          "id": "idsub2a"
+        },
+        {
+          "titulo": "Su poder en la naturaleza",
+          "himnos": [
+            77,
+            78,
+            79,
+            80,
+            81
+          ],
+          "id": "idsub3a"
+        }
+      ],
+      "id": "idcat1a"
     },
     {
-        "titulo":"Jesuscristo",
-        "subCategoria":[
-            {
-                "titulo":"Su primer advenimiento",
-                "himnos":[82,83,84,85,86,87]  
-            },
-            {
-                "titulo":"Su vida y ministerio",
-                "himnos":[88,89]  
-            },
-            {
-                "titulo":"Su sufrimiento y muerte",
-                "himnos":[90,91,92,93,94,95,96,97,98,99]  
-            },
-            {
-                "titulo":"Su resurrección y ascensión",
-                "himnos":[100,101,102,103,104]  
-            },
-            {
-                "titulo":"Su amor y ternura",
-                "himnos":[105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135]  
-            },
-            {
-                "titulo":"Su alabanza y gloria",
-                "himnos":[136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159]  
-            },
-            {
-                "titulo":"Su segundo advenimiento",
-                "himnos":[160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180]  
-            },
-            {
-                "titulo":"Su reino y señorío",
-                "himnos":[181,182,183,184,185,186]  
-            }
-        ]
+      "titulo": "Jesuscristo",
+      "subCategoria": [
+        {
+          "titulo": "Su primer advenimiento",
+          "himnos": [
+            82,
+            83,
+            84,
+            85,
+            86,
+            87
+          ],
+          "id": "idsub0a"
+        },
+        {
+          "titulo": "Su vida y ministerio",
+          "himnos": [
+            88,
+            89
+          ],
+          "id": "idsub1a"
+        },
+        {
+          "titulo": "Su sufrimiento y muerte",
+          "himnos": [
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99
+          ],
+          "id": "idsub2a"
+        },
+        {
+          "titulo": "Su resurrección y ascensión",
+          "himnos": [
+            100,
+            101,
+            102,
+            103,
+            104
+          ],
+          "id": "idsub3a"
+        },
+        {
+          "titulo": "Su amor y ternura",
+          "himnos": [
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135
+          ],
+          "id": "idsub4a"
+        },
+        {
+          "titulo": "Su alabanza y gloria",
+          "himnos": [
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159
+          ],
+          "id": "idsub5a"
+        },
+        {
+          "titulo": "Su segundo advenimiento",
+          "himnos": [
+            160,
+            161,
+            162,
+            163,
+            164,
+            165,
+            166,
+            167,
+            168,
+            169,
+            170,
+            171,
+            172,
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179,
+            180
+          ],
+          "id": "idsub6a"
+        },
+        {
+          "titulo": "Su reino y señorío",
+          "himnos": [
+            181,
+            182,
+            183,
+            184,
+            185,
+            186
+          ],
+          "id": "idsub7a"
+        }
+      ],
+      "id": "idcat2a"
     },
     {
-        "titulo":"El espiritu santo",
-        "subCategoria":[
-            {
-                "titulo":"El espiritu santo",
-                "himnos":[187,188,189,190,191,192,193,194,195]  
-            }
-        ]
+      "titulo": "El espiritu santo",
+      "subCategoria": [
+        {
+          "titulo": "El espiritu santo",
+          "himnos": [
+            187,
+            188,
+            189,
+            190,
+            191,
+            192,
+            193,
+            194,
+            195
+          ],
+          "id": "idsub0a"
+        }
+      ],
+      "id": "idcat3a"
     },
     {
-        "titulo":"Las sagradas escrituras",
-        "subCategoria":[
-            {
-                "titulo":"Las sagradas escrituras",
-                "himnos":[196,197,198,199,200,201]  
-            }
-        ]
+      "titulo": "Las sagradas escrituras",
+      "subCategoria": [
+        {
+          "titulo": "Las sagradas escrituras",
+          "himnos": [
+            196,
+            197,
+            198,
+            199,
+            200,
+            201
+          ],
+          "id": "idsub0a"
+        }
+      ],
+      "id": "idcat4a"
     },
     {
-        "titulo":"El evangelio",
-        "subCategoria":[
-            {
-                "titulo":"El llamado",
-                "himnos":[202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227]  
-            },
-            {
-                "titulo":"Arrepentimiento",
-                "himnos":[228,229,230,231,232]  
-            },
-            {
-                "titulo":"Fe y confianza",
-                "himnos":[233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256]  
-            },
-            {
-                "titulo":"Consagración",
-                "himnos":[257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280]  
-            },
-            {
-                "titulo":"Salvación y redención",
-                "himnos":[281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304]  
-            },
-            {
-                "titulo":"La recompensa de los justos",
-                "himnos":[305,306,307,308,309,310,311,312,313]  
-            },
-            {
-                "titulo":"La vida eterna",
-                "himnos":[314,315,316,317,318,319,320]  
-            }
-        ]
+      "titulo": "El evangelio",
+      "subCategoria": [
+        {
+          "titulo": "El llamado",
+          "himnos": [
+            202,
+            203,
+            204,
+            205,
+            206,
+            207,
+            208,
+            209,
+            210,
+            211,
+            212,
+            213,
+            214,
+            215,
+            216,
+            217,
+            218,
+            219,
+            220,
+            221,
+            222,
+            223,
+            224,
+            225,
+            226,
+            227
+          ],
+          "id": "idsub0a"
+        },
+        {
+          "titulo": "Arrepentimiento",
+          "himnos": [
+            228,
+            229,
+            230,
+            231,
+            232
+          ],
+          "id": "idsub1a"
+        },
+        {
+          "titulo": "Fe y confianza",
+          "himnos": [
+            233,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256
+          ],
+          "id": "idsub2a"
+        },
+        {
+          "titulo": "Consagración",
+          "himnos": [
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264,
+            265,
+            266,
+            267,
+            268,
+            269,
+            270,
+            271,
+            272,
+            273,
+            274,
+            275,
+            276,
+            277,
+            278,
+            279,
+            280
+          ],
+          "id": "idsub3a"
+        },
+        {
+          "titulo": "Salvación y redención",
+          "himnos": [
+            281,
+            282,
+            283,
+            284,
+            285,
+            286,
+            287,
+            288,
+            289,
+            290,
+            291,
+            292,
+            293,
+            294,
+            295,
+            296,
+            297,
+            298,
+            299,
+            300,
+            301,
+            302,
+            303,
+            304
+          ],
+          "id": "idsub4a"
+        },
+        {
+          "titulo": "La recompensa de los justos",
+          "himnos": [
+            305,
+            306,
+            307,
+            308,
+            309,
+            310,
+            311,
+            312,
+            313
+          ],
+          "id": "idsub5a"
+        },
+        {
+          "titulo": "La vida eterna",
+          "himnos": [
+            314,
+            315,
+            316,
+            317,
+            318,
+            319,
+            320
+          ],
+          "id": "idsub6a"
+        }
+      ],
+      "id": "idcat5a"
     },
     {
-        "titulo":"La vida cristiana",
-        "subCategoria":[
-            {
-                "titulo":"Gozo y paz",
-                "himnos":[321,322,323,324,325,326,327,328,329,330,331,332,333,334,335,336]  
-            },
-            {
-                "titulo":"Oración y meditación",
-                "himnos":[337,338,339,340,341,342,343,344,345,346,347,348,349]  
-            },
-            {
-                "titulo":"El trabajo y el deber",
-                "himnos":[350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368]  
-            },
-            {
-                "titulo":"Lealtad",
-                "himnos":[369,370,371,372]  
-            },
-            {
-                "titulo":"La lucha contra el mal",
-                "himnos":[373,374,375,376,377,378,379,380,381,382,383]  
-            },
-            {
-                "titulo":"Peregrinación",
-                "himnos":[384,385,386,387,388,389,390,391,392]  
-            },
-            {
-                "titulo":"El discipulado",
-                "himnos":[393,394,395,396,397,398,399,400,401]  
-            },
-            {
-                "titulo":"Esperanza y anhelo",
-                "himnos":[402,403,404,405,406,407,408,409,410,411,412,413]  
-            },
-            {
-                "titulo":"Dirección divina",
-                "himnos":[414,415,416,417,418,419,420,421,422,423,424,425,426,427,428,429,430,431,432,433,434]  
-            }
-        ]
+      "titulo": "La vida cristiana",
+      "subCategoria": [
+        {
+          "titulo": "Gozo y paz",
+          "himnos": [
+            321,
+            322,
+            323,
+            324,
+            325,
+            326,
+            327,
+            328,
+            329,
+            330,
+            331,
+            332,
+            333,
+            334,
+            335,
+            336
+          ],
+          "id": "idsub0a"
+        },
+        {
+          "titulo": "Oración y meditación",
+          "himnos": [
+            337,
+            338,
+            339,
+            340,
+            341,
+            342,
+            343,
+            344,
+            345,
+            346,
+            347,
+            348,
+            349
+          ],
+          "id": "idsub1a"
+        },
+        {
+          "titulo": "El trabajo y el deber",
+          "himnos": [
+            350,
+            351,
+            352,
+            353,
+            354,
+            355,
+            356,
+            357,
+            358,
+            359,
+            360,
+            361,
+            362,
+            363,
+            364,
+            365,
+            366,
+            367,
+            368
+          ],
+          "id": "idsub2a"
+        },
+        {
+          "titulo": "Lealtad",
+          "himnos": [
+            369,
+            370,
+            371,
+            372
+          ],
+          "id": "idsub3a"
+        },
+        {
+          "titulo": "La lucha contra el mal",
+          "himnos": [
+            373,
+            374,
+            375,
+            376,
+            377,
+            378,
+            379,
+            380,
+            381,
+            382,
+            383
+          ],
+          "id": "idsub4a"
+        },
+        {
+          "titulo": "Peregrinación",
+          "himnos": [
+            384,
+            385,
+            386,
+            387,
+            388,
+            389,
+            390,
+            391,
+            392
+          ],
+          "id": "idsub5a"
+        },
+        {
+          "titulo": "El discipulado",
+          "himnos": [
+            393,
+            394,
+            395,
+            396,
+            397,
+            398,
+            399,
+            400,
+            401
+          ],
+          "id": "idsub6a"
+        },
+        {
+          "titulo": "Esperanza y anhelo",
+          "himnos": [
+            402,
+            403,
+            404,
+            405,
+            406,
+            407,
+            408,
+            409,
+            410,
+            411,
+            412,
+            413
+          ],
+          "id": "idsub7a"
+        },
+        {
+          "titulo": "Dirección divina",
+          "himnos": [
+            414,
+            415,
+            416,
+            417,
+            418,
+            419,
+            420,
+            421,
+            422,
+            423,
+            424,
+            425,
+            426,
+            427,
+            428,
+            429,
+            430,
+            431,
+            432,
+            433,
+            434
+          ],
+          "id": "idsub8a"
+        }
+      ],
+      "id": "idcat6a"
     },
     {
-        "titulo":"La iglesia y las doctrinas",
-        "subCategoria":[
-            {
-                "titulo":"La iglesia",
-                "himnos":[435,436,437,438]  
-            },
-            {
-                "titulo":"La escuela sabática",
-                "himnos":[439,440]  
-            },
-            {
-                "titulo":"El ministerio y las misiones",
-                "himnos":[441,442,443,444,445,446,447,448,449,450,451]  
-            },
-            {
-                "titulo":"La juventud",
-                "himnos":[452,453,454,455,456,457,458,459,460]  
-            },
-            {
-                "titulo":"El bautismo",
-                "himnos":[461,462,463,464]  
-            },
-            {
-                "titulo":"El sabádo",
-                "himnos":[465,466,467,468,469,470,471,472,473,474,475,476,477]  
-            },
-            {
-                "titulo":"La Cena del Señor",
-                "himnos":[478,479,480,481,482,483,484]  
-            },
-            {
-                "titulo":"Los diezmos y las ofrendas",
-                "himnos":[485,486,487]  
-            },
-            {
-                "titulo":"La reunión de obreros",
-                "himnos":[488,489,490]  
-            },
-            {
-                "titulo":"El juicio final",
-                "himnos":[491,492,493]  
-            },
-            {
-                "titulo":"La tierra nueva",
-                "himnos":[494,495,496,497,498,499,500,501,502,503,504,505,506,507,508]  
-            }
-        ]
+      "titulo": "La iglesia y las doctrinas",
+      "subCategoria": [
+        {
+          "titulo": "La iglesia",
+          "himnos": [
+            435,
+            436,
+            437,
+            438
+          ],
+          "id": "idsub0a"
+        },
+        {
+          "titulo": "La escuela sabática",
+          "himnos": [
+            439,
+            440
+          ],
+          "id": "idsub1a"
+        },
+        {
+          "titulo": "El ministerio y las misiones",
+          "himnos": [
+            441,
+            442,
+            443,
+            444,
+            445,
+            446,
+            447,
+            448,
+            449,
+            450,
+            451
+          ],
+          "id": "idsub2a"
+        },
+        {
+          "titulo": "La juventud",
+          "himnos": [
+            452,
+            453,
+            454,
+            455,
+            456,
+            457,
+            458,
+            459,
+            460
+          ],
+          "id": "idsub3a"
+        },
+        {
+          "titulo": "El bautismo",
+          "himnos": [
+            461,
+            462,
+            463,
+            464
+          ],
+          "id": "idsub4a"
+        },
+        {
+          "titulo": "El sabádo",
+          "himnos": [
+            465,
+            466,
+            467,
+            468,
+            469,
+            470,
+            471,
+            472,
+            473,
+            474,
+            475,
+            476,
+            477
+          ],
+          "id": "idsub5a"
+        },
+        {
+          "titulo": "La Cena del Señor",
+          "himnos": [
+            478,
+            479,
+            480,
+            481,
+            482,
+            483,
+            484
+          ],
+          "id": "idsub6a"
+        },
+        {
+          "titulo": "Los diezmos y las ofrendas",
+          "himnos": [
+            485,
+            486,
+            487
+          ],
+          "id": "idsub7a"
+        },
+        {
+          "titulo": "La reunión de obreros",
+          "himnos": [
+            488,
+            489,
+            490
+          ],
+          "id": "idsub8a"
+        },
+        {
+          "titulo": "El juicio final",
+          "himnos": [
+            491,
+            492,
+            493
+          ],
+          "id": "idsub9a"
+        },
+        {
+          "titulo": "La tierra nueva",
+          "himnos": [
+            494,
+            495,
+            496,
+            497,
+            498,
+            499,
+            500,
+            501,
+            502,
+            503,
+            504,
+            505,
+            506,
+            507,
+            508
+          ],
+          "id": "idsub10a"
+        }
+      ],
+      "id": "idcat7a"
     },
     {
-        "titulo":"El hogar cristiano",
-        "subCategoria":[
-            {
-                "titulo":"El hogar y los niños",
-                "himnos":[509,510,511]  
-            },
-            {
-                "titulo":"La boda",
-                "himnos":[512]  
-            },
-            {
-                "titulo":"Los niños",
-                "himnos":[513,514,515,516,517,518,519,520,521]  
-            }
-        ]
+      "titulo": "El hogar cristiano",
+      "subCategoria": [
+        {
+          "titulo": "El hogar y los niños",
+          "himnos": [
+            509,
+            510,
+            511
+          ],
+          "id": "idsub0a"
+        },
+        {
+          "titulo": "La boda",
+          "himnos": [
+            512
+          ],
+          "id": "idsub1a"
+        },
+        {
+          "titulo": "Los niños",
+          "himnos": [
+            513,
+            514,
+            515,
+            516,
+            517,
+            518,
+            519,
+            520,
+            521
+          ],
+          "id": "idsub2a"
+        }
+      ],
+      "id": "idcat8a"
     },
     {
-        "titulo":"Ocasiones especiales",
-        "subCategoria":[
-            {
-                "titulo":"Dedicación",
-                "himnos":[522]  
-            },
-            {
-                "titulo":"Funeral",
-                "himnos":[523,524,525,526]  
-            },
-            {
-                "titulo":"Temperancia",
-                "himnos":[527]  
-            }
-        ]
+      "titulo": "Ocasiones especiales",
+      "subCategoria": [
+        {
+          "titulo": "Dedicación",
+          "himnos": [
+            522
+          ],
+          "id": "idsub0a"
+        },
+        {
+          "titulo": "Funeral",
+          "himnos": [
+            523,
+            524,
+            525,
+            526
+          ],
+          "id": "idsub1a"
+        },
+        {
+          "titulo": "Temperancia",
+          "himnos": [
+            527
+          ],
+          "id": "idsub2a"
+        }
+      ],
+      "id": "idcat9a"
     }
-]
+  ]

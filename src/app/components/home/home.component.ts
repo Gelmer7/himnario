@@ -12,8 +12,8 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
   buscarHimnos( termino:string){
-    console.log(termino);
-    this.router.navigate(['/buscador', termino] )
+    if (!termino ) { return }
+    this.router.navigate(['/buscahimno', termino] )
   }
 
 }
